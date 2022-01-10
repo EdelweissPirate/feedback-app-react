@@ -42,6 +42,7 @@ function FeedbackForm() {
                 rating
             }
             feedbackEdit.edit ? updateFeedback(feedbackEdit.item.id, newFeedback) : addFeedback(newFeedback)
+            console.log(newFeedback)
             setText('')
         }
     }
